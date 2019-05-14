@@ -32,7 +32,7 @@
 
 9、 查询“95031”班的学生人数。  
 
-    SELECT class,COUNT(*) FROM `student` WHERE class = 95031
+    SELECT class,COUNT(*) as StuNum FROM `student` WHERE class = 95031
 
 10、查询Score表中的最高分的学生学号和课程号。  
 
